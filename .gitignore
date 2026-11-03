@@ -1,0 +1,16 @@
+
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+chroma_db/
+chroma_db_source.sha256
+input/*.pdf
+
+.streamlit/secrets.toml
+.DS_Store
